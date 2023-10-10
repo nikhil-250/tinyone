@@ -1,0 +1,121 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.row,
+.row::after,
+.row::before{
+	display:table;
+	clear:both;
+	width:100%
+}
+
+/*################### css for header section starts here################# */
+
+
+.header{
+	background-color:#fcdb00;
+	padding:100px 0;
+}
+.navbar{
+	list-style: none;
+	text-align:right;
+}
+.navbar li{
+	display:inline-block;
+}
+.logo{
+	display:inline-block;
+}
+.navbar li a:link,
+.navbar li a:visited{
+	text-decoration:none;
+	text-transform:capitalize;
+	color:#010101;
+	font-weight:bold;
+    font-size:22px;
+	padding:10px 30px;
+	height:68px;
+	display:inline-block;
+	line-height:0;
+}
+.inspiration{
+	margin-top:75px;
+}
+.ipad{
+	margin-left:-33px;
+}
+
+
+/*############# css for features section starts here############*/
+
+.features{
+	padding:105px 0 150px;
+}
+.thumbnail i{
+	font-size:40px;
+}
+.thumbnail h4{
+	font-size:22px;
+	color:#010101;
+	margin-bottom:15px;
+}
+.thumbnail p{
+	font-size:16px;
+	color:#898989;
+}
+
+
+/*############footer section starts here###########*/
+
+
+	.footer{
+		background-color:#000;
+		padding:95px 0 170px;
+	}
+	.neuron{
+		width:129px;
+		height:52px;
+		border-radius:5px;
+		font-weight:700px;
+		cursor:pointer;
+		background-color:#fcdb00;
+		border:2px solid #fcdb00;
+	}
+	.email{
+		height:50px;
+		border:2px solid white;
+		border-radius:5px;
+		width:calc(100% - 150px);
+		padding-left: 25px;
+	}
+	.email::placeholder{
+		color:#898989;
+		font-size:16px;
+	}
+	.neuron:hover,
+	.neuron:focus,
+	.neuron:active{
+		background-color:transparent;
+		color:#fcdb00;
+	}
+	.footer .brandicons i{
+		color:#fcdb00;
+	}
+	.footer .brandicons{
+		margin-bottom:135px;
+	}
+	.footerlinks{
+		list-style: none;
+	
+	}
+	.footerlinks li, 
+	.footerlinks li a:link, 
+	.footerlinks li a:visited{
+		color:#fff;
+		text-decoration:none;
+	}
